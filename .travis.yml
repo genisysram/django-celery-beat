@@ -12,10 +12,7 @@ before_install:
   - sudo apt install -y erlang-nox
   - sudo apt install -y rabbitmq-server
   - sudo /etc/init.d/rabbitmq-server start
-python:
- # - 3.6
- # - 3.7
- # - 3.8
+
 arch:
     - amd64
     - ppc64le
