@@ -16,10 +16,9 @@ python:
  # - 3.6
  # - 3.7
   - 3.8
-env:
-  - DJANGO=2.2
-  - DJANGO=3.0
-  - DJANGO=3.1
+arch:
+    - amd64
+    - ppc64le
 os:
   - linux
 matrix:
